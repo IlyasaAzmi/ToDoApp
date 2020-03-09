@@ -14,6 +14,8 @@
 		EDF7E6732416208400B574B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDF7E6722416208400B574B0 /* Assets.xcassets */; };
 		EDF7E6762416208400B574B0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDF7E6752416208400B574B0 /* Preview Assets.xcassets */; };
 		EDF7E6792416208400B574B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDF7E6772416208400B574B0 /* LaunchScreen.storyboard */; };
+		EDF7E6812416211600B574B0 /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF7E6802416211600B574B0 /* ToDoItem.swift */; };
+		EDF7E685241628FD00B574B0 /* ToDoItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF7E684241628FD00B574B0 /* ToDoItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		EDF7E6752416208400B574B0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EDF7E6782416208400B574B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EDF7E67A2416208400B574B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDF7E6802416211600B574B0 /* ToDoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
+		EDF7E684241628FD00B574B0 /* ToDoItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,8 @@
 				EDF7E67A2416208400B574B0 /* Info.plist */,
 				EDF7E66D2416208200B574B0 /* ToDoApp.xcdatamodeld */,
 				EDF7E6742416208400B574B0 /* Preview Content */,
+				EDF7E6802416211600B574B0 /* ToDoItem.swift */,
+				EDF7E684241628FD00B574B0 /* ToDoItemView.swift */,
 			);
 			path = ToDoApp;
 			sourceTree = "<group>";
@@ -150,7 +156,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				EDF7E66A2416208200B574B0 /* AppDelegate.swift in Sources */,
+				EDF7E685241628FD00B574B0 /* ToDoItemView.swift in Sources */,
 				EDF7E66F2416208200B574B0 /* ToDoApp.xcdatamodeld in Sources */,
+				EDF7E6812416211600B574B0 /* ToDoItem.swift in Sources */,
 				EDF7E6712416208200B574B0 /* ContentView.swift in Sources */,
 				EDF7E66C2416208200B574B0 /* SceneDelegate.swift in Sources */,
 			);
